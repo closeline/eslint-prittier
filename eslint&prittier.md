@@ -22,7 +22,7 @@ parser: "@typescript-eslint/parser",
 parserOptions: {  
 "sourceType": "module",  
 "project": "./tsconfig.json" // TypeScriptのLint時に参照するconfigファイルを指定 },  
-root: true, // 上位ディレクトリにある他のeslintrcを参照しないようにする rules: {} }```   
+root: true, // 上位ディレクトリにある他のeslintrcを参照しないようにする rules: {} }```  
 
 ### 1-4.package.json に以下を追加  
 
